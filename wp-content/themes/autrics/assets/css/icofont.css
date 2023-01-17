@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'iconfont';
-  src:  url('https://cloudinteam.github.io/orbit-machines/wp-content/themes/autrics/assets/fonts/iconfont.eot?d535rg');
-  src:  url('https://cloudinteam.github.io/orbit-machines/wp-content/themes/autrics/assets/fonts/iconfont.eot?d535rg#iefix') format('embedded-opentype'),
-    url('https://cloudinteam.github.io/orbit-machines/wp-content/themes/autrics/assets/fonts/iconfont.ttf?d535rg') format('truetype'),
-    url('https://cloudinteam.github.io/orbit-machines/wp-content/themes/autrics/assets/fonts/iconfont.woff?d535rg') format('woff'),
-    url('https://cloudinteam.github.io/orbit-machines/wp-content/themes/autrics/assets/fonts/iconfont.svg?d535rg#iconfont') format('svg');
+  src:  url('../fonts/iconfont.eot?d535rg');
+  src:  url('../fonts/iconfont.eot?d535rg#iefix') format('embedded-opentype'),
+    url('../fonts/iconfont.ttf?d535rg') format('truetype'),
+    url('../fonts/iconfont.woff?d535rg') format('woff'),
+    url('../fonts/iconfont.svg?d535rg#iconfont') format('svg');
   font-weight: normal;
   font-style: normal;
 }
