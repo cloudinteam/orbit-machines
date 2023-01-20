@@ -137,6 +137,17 @@ jQuery( document ).ready( function($){
             $('#preloader').addClass('loaded');
          }
       });
+
+      /* ========================================================================
+                     Blog Thumbnail Height
+      ======================================================================== */
+      if($('.ekit-wid-con .elementskit-post-image-card .elementskit-entry-header .elementskit-entry-thumb > img')) {
+         $('.ekit-wid-con .elementskit-post-image-card .elementskit-entry-header .elementskit-entry-thumb > img').each(function() {
+            // console.log(`img${index}: ${this.width}`);
+            $(this).height(this.width - 60);
+         })
+      }
+      
 } );
 
 
