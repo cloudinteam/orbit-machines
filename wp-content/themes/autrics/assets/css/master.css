@@ -3056,7 +3056,7 @@ blockquote p cite {
   right: 22px;
   bottom: 17px;
   color: #fff;
-  z-index: 2;
+  z-index: 10;
   border: none;
 }
 
