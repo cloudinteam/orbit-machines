@@ -68,7 +68,7 @@ h5,
 h6 {
     color: #101010;
     margin-bottom: 20px;
-    font-family: "Dosis", sans-serif;
+    font-family: "Josefin Sans", sans-serif;
 }
 
 h1,
@@ -128,7 +128,7 @@ button:focus {
     display: -ms-inline-flexbox;
     display: inline-flex;
     border: 1px solid #ee3131;
-    font-family: "Dosis", sans-serif;
+    font-family: "Josefin Sans", sans-serif;
     position: relative;
     z-index: 1;
     overflow: hidden;
@@ -656,7 +656,7 @@ div.wpcf7 .ajax-loader {
 }
 
 .cart-link form .search-box input::-webkit-input-placeholder {
-    font-family: "Dosis", sans-serif;
+    font-family: "Josefin Sans", sans-serif;
     font-size: 14px;
     color: #101010;
     padding-left: 10px;
@@ -666,7 +666,7 @@ div.wpcf7 .ajax-loader {
 }
 
 .cart-link form .search-box input::-moz-placeholder {
-    font-family: "Dosis", sans-serif;
+    font-family: "Josefin Sans", sans-serif;
     font-size: 14px;
     color: #101010;
     padding-left: 10px;
@@ -676,7 +676,7 @@ div.wpcf7 .ajax-loader {
 }
 
 .cart-link form .search-box input:-ms-input-placeholder {
-    font-family: "Dosis", sans-serif;
+    font-family: "Josefin Sans", sans-serif;
     font-size: 14px;
     color: #101010;
     padding-left: 10px;
@@ -686,7 +686,7 @@ div.wpcf7 .ajax-loader {
 }
 
 .cart-link form .search-box input::-ms-input-placeholder {
-    font-family: "Dosis", sans-serif;
+    font-family: "Josefin Sans", sans-serif;
     font-size: 14px;
     color: #101010;
     padding-left: 10px;
@@ -696,7 +696,7 @@ div.wpcf7 .ajax-loader {
 }
 
 .cart-link form .search-box input::placeholder {
-    font-family: "Dosis", sans-serif;
+    font-family: "Josefin Sans", sans-serif;
     font-size: 14px;
     color: #101010;
     padding-left: 10px;
@@ -788,11 +788,12 @@ div.wpcf7 .ajax-loader {
 .navbar .nav-item .nav-link {
     padding: 17px 5px;
     display: block;
-    font-size: 15px;
+    font-size: 13px;
     font-weight: 600;
     text-transform: uppercase;
     position: relative;
-    font-family: "Dosis", sans-serif;
+    /* font-family: "Dosis", sans-serif; */
+    font-family: "Josefin Sans", sans-serif;
     z-index: 2;
     color: #fff;
 }
@@ -888,7 +889,7 @@ div.wpcf7 .ajax-loader {
     display: block;
     /* padding: 13px 23px; */
     padding: 5px 23px;
-    font-family: "Dosis", sans-serif;
+    font-family: "Josefin Sans", sans-serif;
 }
 
 .navbar-nav .nav-item .dropdown-menu li a:hover,
@@ -935,12 +936,13 @@ div.wpcf7 .ajax-loader {
 
 .ts-header-classic .ts-logo-area {
     padding: 25px 0;
-    background-color: #091b46;
+    /* background-color: #091b46; */
+    background-color: #f2f2f2;
     padding-bottom: 58px;
 }
 
 .ts-header-classic .ts-logo-area .info-wrapper .info-subtitle {
-    color: #fff;
+    color: #000;
 }
 
 .ts-header-classic .ts-logo-area .info-wrapper .info-subtitle a {
@@ -948,7 +950,7 @@ div.wpcf7 .ajax-loader {
 }
 
 .ts-header-classic .ts-logo-area .info-wrapper .info-title {
-    color: #fff;
+    color: #000;
 }
 
 .ts-header-classic .header-angle {
@@ -980,17 +982,19 @@ div.wpcf7 .ajax-loader {
 
 .ts-header-classic .header-angle .navbar-light {
     background: #ee3131;
-    margin-left: 55px;
+    /* margin-left: 55px; */
+    margin-left: 0;
+    padding-left: 20px;
 }
 
 .ts-header-classic .header-angle .navbar-light:before {
-    position: absolute;
+    /* position: absolute;
     top: 0;
     left: -56px;
     right: auto;
     content: "";
     border-right: 56px solid #ee3131;
-    border-top: 58px solid transparent;
+    border-top: 58px solid transparent; */
 }
 
 .ts-header-classic .header-cart {
@@ -1184,8 +1188,8 @@ div.wpcf7 .ajax-loader {
         width: 100%;
         z-index: 99999;
         margin: 0;
-        -webkit-box-shadow: 0 8px 17px rgba(0, 0, 0, 0.02);
-        box-shadow: 0 8px 17px rgba(0, 0, 0, 0.02);
+        -webkit-box-shadow: 0 8px 17px rgba(0, 0, 0, 0.2);
+        box-shadow: 0 8px 17px rgba(0, 0, 0, 0.2);
     }
     .navbar-fixed.sticky.fade_down_effect {
         -webkit-animation-name: fadeInDown;
@@ -1329,7 +1333,7 @@ div.wpcf7 .ajax-loader {
 .breadcrumb li {
     color: #fff;
     font-size: 16px;
-    font-family: "Dosis", sans-serif;
+    font-family: "Josefin Sans", sans-serif;
     display: inline-block;
 }
 
@@ -1830,7 +1834,7 @@ blockquote p cite {
     -webkit-transition: all 0.4s;
     transition: all 0.4s;
     color: #101010;
-    font-family: "Dosis", sans-serif;
+    font-family: "Josefin Sans", sans-serif;
     font-weight: 500;
 }
 
@@ -2530,7 +2534,7 @@ blockquote p cite {
 }
 
 .slider-content h1 {
-    font-family: "Dosis", sans-serif;
+    font-family: "Josefin Sans", sans-serif;
     font-size: 60px;
     color: #fff;
     margin-bottom: 25px;
@@ -2538,7 +2542,7 @@ blockquote p cite {
 }
 
 .slider-content h1 small {
-    font-family: "Dosis", sans-serif;
+    font-family: "Josefin Sans", sans-serif;
     font-size: 20px;
     color: #fff;
     display: block;
@@ -2676,7 +2680,7 @@ blockquote p cite {
     font-size: 24px;
     color: #fff;
     text-align: center;
-    font-family: "Dosis", sans-serif;
+    font-family: "Josefin Sans", sans-serif;
     margin-bottom: 35px;
 }
 
@@ -2701,13 +2705,13 @@ blockquote p cite {
     width: 170px;
     text-align: left;
     color: #fff;
-    font-family: "Roboto", sans-serif;
+    font-family: "Josefin Sans", sans-serif;
     font-weight: 400;
 }
 
 .intro-content li span {
     color: #fff;
-    font-family: "Roboto", sans-serif;
+    font-family: "Josefin Sans", sans-serif;
     font-weight: 400;
 }
 
@@ -2846,12 +2850,13 @@ blockquote p cite {
 
 .contactMe .field,
 .contactMe input {
-    font-family: "Roboto", sans-serif;
-    color: #999999;
-    font-size: 15px;
+    /* font-family: "Roboto", sans-serif; */
+    font-family: "Josefin Sans", sans-serif;
+    color: #000000;
+    font-size: 16px;
     border: solid 1px #E4E4E4;
     height: 50px;
-    padding: 8px 30px;
+    padding: 8px 20px;
     line-height: 24px;
 }
 
@@ -2887,7 +2892,7 @@ blockquote p cite {
 
 .contactMe .field {
     width: 100%;
-    margin-bottom: 20px;
+    margin-bottom: 0;
 }
 
 .contactMe .cm-date::-webkit-calendar-picker-indicator,
@@ -2916,7 +2921,7 @@ blockquote p cite {
 }
 
 .contactMe .select2-container .select2-selection .select2-selection__rendered {
-    color: #999999;
+    color: #000000;
     font-size: 16px;
     padding-top: 12px;
     padding-left: 20px;
@@ -3359,8 +3364,8 @@ blockquote p cite {
     display: flex;
     -webkit-box-pack: center;
     -ms-flex-pack: center;
-    justify-content: center;
-    padding: 20px 0;
+    justify-content: left;
+    padding: 20px 0 20px 20px;
     position: relative;
 }
 
@@ -3397,7 +3402,7 @@ blockquote p cite {
 .footer-top .footer-box-content h3 {
     font-weight: 600;
     font-size: 20px;
-    margin-bottom: 10px;
+    margin-bottom: 0;
     cursor: pointer;
 }
 
@@ -3419,7 +3424,7 @@ blockquote p cite {
 }
 
 .footer-main .footer-about {
-    color: #fff;
+    color: #000;
     font-size: 14px;
 }
 
@@ -3465,8 +3470,8 @@ blockquote p cite {
 
 .footer-widget .widget-title {
     font-size: 24px;
-    color: #fff;
-    margin-bottom: 40px;
+    color: #db0d17;
+    margin-bottom: 20px;
 }
 
 .footer-widget .widget-title span {
@@ -3489,7 +3494,7 @@ blockquote p cite {
 .footer-widget .unstyled li a,
 .footer-widget .menu li a {
     font-size: 14px;
-    color: #ffffff;
+    color: #000000;
 }
 
 .footer-widget.widget-service {
@@ -3540,7 +3545,8 @@ blockquote p cite {
 .copyright {
     position: relative;
     background: #030e28;
-    padding: 23px 0;
+    /* padding: 23px 0; */
+    padding: 15px 0;
 }
 
 .copyright .copyright-info {
@@ -3554,8 +3560,8 @@ blockquote p cite {
     text-align: center;
     line-height: 35px;
     position: fixed;
-    right: 22px;
-    bottom: 17px;
+    right: 12px;
+    bottom: 10px;
     color: #fff;
     z-index: 10;
     border: none;
@@ -5072,7 +5078,7 @@ button:hover {
     display: block;
     color: #fff;
     font-size: 24px;
-    font-family: "Dosis", sans-serif;
+    font-family: "Josefin Sans", sans-serif;
 }
 
 .download-btn a span {
@@ -6011,7 +6017,7 @@ iframe {
     font-size: 16px;
     font-weight: 700;
     color: #101010;
-    font-family: "Dosis", sans-serif;
+    font-family: "Josefin Sans", sans-serif;
 }
 
 .recent-post-widget .media-body .entry-title a:hover {
@@ -6403,7 +6409,7 @@ code {
 @media (min-width: 992px) and (max-width: 1199px) {
     /* Navbar */
     .navbar .nav-item {
-        margin-right: 12px;
+        margin-right: 12px !important;
     }
     .navbar .nav-item .nav-link {
         font-size: 12px;
