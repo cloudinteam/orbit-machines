@@ -9,7 +9,7 @@
 
 <channel>
 	<title>Orbit Machines</title>
-	<atom:link href="https://cloudinteam.github.io/orbit-machines/feed/?simply_static_page=129716" rel="self" type="application/rss+xml" />
+	<atom:link href="https://cloudinteam.github.io/orbit-machines/feed/" rel="self" type="application/rss+xml" />
 	<link>https://cloudinteam.github.io/orbit-machines</link>
 	<description></description>
 	<lastBuildDate>Fri, 27 Jan 2023 07:28:15 +0000</lastBuildDate>
@@ -108,7 +108,7 @@ Finally, recycling helps us to protect our environment. By diverting waste from 
 				<div class="elementor-widget-container">
 								<div class="elementor-image">
 													<a href="https://cloudinteam.github.io/orbit-machines/wp-content/uploads/2023/01/solid-waste-dump.jpg" data-elementor-open-lightbox="yes" data-elementor-lightbox-title="solid-waste-dump" e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6NDUzNSwidXJsIjoiaHR0cDpcL1wvbG9jYWxob3N0XC9vcmJpdFwvd3AtY29udGVudFwvdXBsb2Fkc1wvMjAyM1wvMDFcL3NvbGlkLXdhc3RlLWR1bXAuanBnIn0%3D">
-							<img decoding="async" width="800" height="639" src="https://cloudinteam.github.io/orbit-machines/wp-content/uploads/2023/01/solid-waste-dump.jpg" class="attachment-large size-large wp-image-4535" alt="" loading="lazy" />								</a>
+							<img decoding="async" width="800" height="639" src="https://cloudinteam.github.io/orbit-machines/wp-content/uploads/2023/01/solid-waste-dump.jpg" class="attachment-large size-large wp-image-4535" alt="" />								</a>
 														</div>
 						</div>
 				</div>
