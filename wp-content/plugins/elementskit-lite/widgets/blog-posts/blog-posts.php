@@ -147,10 +147,10 @@ class ElementsKit_Widget_Blog_Posts extends Widget_Base {
                'type'      => Controls_Manager::SELECT,
                'options'   => [
                    'ekit-lg-12 ekit-md-12'   => esc_html__( '1', 'elementskit-lite' ),
-                   'ekit-lg-6 ekit-md-6'     => esc_html__( '2', 'elementskit-lite' ),
-                   'ekit-lg-4 ekit-md-6'     => esc_html__( '3', 'elementskit-lite' ),
-                   'ekit-lg-3 ekit-md-6'     => esc_html__( '4', 'elementskit-lite' ),
-                   'ekit-lg-2 ekit-md-6'     => esc_html__( '6', 'elementskit-lite' ),
+                   'ekit-lg-6 ekit-md-6 ekit-sm-6 ekit-12'     => esc_html__( '2', 'elementskit-lite' ),
+                   'ekit-lg-4 ekit-md-6 ekit-sm-6 ekit-12'     => esc_html__( '3', 'elementskit-lite' ),
+                   'ekit-lg-3 ekit-md-4 ekit-sm-6 ekit-12'     => esc_html__( '4', 'elementskit-lite' ),
+                   'ekit-lg-2 ekit-md-6 ekit-sm-6 ekit-12'     => esc_html__( '6', 'elementskit-lite' ),
                ],
                'condition' => [
                    'ekit_blog_posts_layout_style' => ['elementskit-post-image-card', 'elementskit-post-card'],

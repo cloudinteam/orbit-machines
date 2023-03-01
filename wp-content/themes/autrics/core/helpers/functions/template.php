@@ -20,7 +20,7 @@ function autrics_post_nav() {
 					<h3>
 					  <?php echo wp_trim_words( get_the_title( $pre_post->ID), 8, '...' ); ?>
 				  </h3>
-					<span><i class="fa fa-long-arrow-left"></i><?php esc_html_e( 'Previous post', 'autrics' ) ?></span>
+					<span><i class="fa fa-arrow-circle-o-left" aria-hidden="true"></i><?php esc_html_e( 'Previous post', 'autrics' ) ?></span>
 				</a>
 			<?php endif; ?>
 		</div>
@@ -32,7 +32,7 @@ function autrics_post_nav() {
 						<?php echo wp_trim_words( get_the_title($next_post->ID), 8, '...' ); ?>
 					</h3>
 
-					<span><?php esc_html_e( 'Next post', 'autrics' ) ?> <i class="fa fa-long-arrow-right"></i></span>
+					<span><?php esc_html_e( 'Next post', 'autrics' ) ?> <i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i></span>
 				</a>
 			<?php endif; ?>
 		</div>
@@ -113,11 +113,11 @@ function autrics_post_meta() {
 	<div class="post-meta">
 		<?php 
 		 
-			printf(
-				'<span class="post-author"><i class="icon icon-user"></i><a href="%1$s">By %2$s</a></span>',
-				esc_url( get_author_posts_url( get_the_author_meta( 'ID' ) ) ), 
-				get_the_author()
-         );
+		// 	printf(
+		// 		'<span class="post-author"><i class="icon icon-user"></i><a href="%1$s">By %2$s</a></span>',
+		// 		esc_url( get_author_posts_url( get_the_author_meta( 'ID' ) ) ), 
+		// 		get_the_author()
+        //  );
          $date_style = autrics_option('blog_date_style','classic');
          if ( $date_style == "classic" ) :
                printf('<span class="post-meta-date"> <i class="icon icon-clock"></i>%1$s</span>',

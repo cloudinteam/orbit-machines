@@ -7,9 +7,11 @@ if ( $wp_query->max_num_pages <= 1 ){
     return;
 }
 
+//$paged	 = get_query_var( 'paged' ) ? absint( get_query_var( 'paged' ) ) : 1;
 $paged	 = get_query_var( 'paged' ) ? absint( get_query_var( 'paged' ) ) : 1;
 $max	 = intval( $wp_query->max_num_pages );
-
+// print_r($paged);
+// print_r($wp_query->max_num_pages);
 // add current page to the array
 if ( $paged >= 1 ){
     $links[] = $paged;
@@ -24,7 +26,10 @@ if ( $paged >= 3 ) {
 if ( ( $paged + 2 ) <= $max ) {
     $links[] = $paged + 2;
     $links[] = $paged + 1;
+    // print_r($links);
 }
+
+
 
 echo '<ul class="pagination justify-content-center">' . "\n";
 

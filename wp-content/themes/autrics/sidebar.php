@@ -5,7 +5,7 @@
 ?>
 <?php if(is_active_sidebar('sidebar-1')): ?> 
 <div class="col-lg-4 col-md-12 order-2 order-lg-1">
-	<aside id="sidebar" class="sidebar" role="complementary">
+	<aside id="sidebar" class="sidebar" role="complementary" >
 		<?php
 	   	dynamic_sidebar( 'sidebar-1' );
 	   ?>

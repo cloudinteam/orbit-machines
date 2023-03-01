@@ -51,11 +51,11 @@
   
       <div class="copyright">
             <div class="container">
-               <div class="row">
+               <div class="row justify-content-center">
                   <div class="col-lg-6 col-md-12">
-                     <div class="copyright-info">
+                     <div class="copyright-info text-center">
                      <span <?php echo  esc_attr($footer_copyright_color); ?> ><?php 
-                        $copyright_text = autrics_option('footer_copyright', '&copy; '.date("Y").', Orbit Machines. All rights reserved');
+                        $copyright_text = autrics_option('footer_copyright', 'Copyright  &copy; '.date("Y").', Orbit Machines. All rights reserved');
                         echo autrics_kses($copyright_text);                                
                     ?></span>
                      </div>

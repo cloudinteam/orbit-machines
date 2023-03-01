@@ -107,7 +107,8 @@ if ( defined( 'FW' ) ) {
                   <img src="<?php 
                   echo esc_url(
                      autrics_src(
-                        'general_dark_logo',
+                        // 'general_dark_logo',
+                        'general_main_logo',
                         AUTRICS_IMG . '/logo/logo2.png'
                      )
                   );
@@ -172,6 +173,7 @@ if ( defined( 'FW' ) ) {
       </div>
       <!-- Logo End -->
 
+   
       <div class="header-angle <?php echo autrics_option('header_nav_sticky_section','no')=="yes"?"navbar-fixed":'' ?> ">
          <div class="container">
             <nav class="navbar navbar-expand-lg xs-navbar navbar-light">

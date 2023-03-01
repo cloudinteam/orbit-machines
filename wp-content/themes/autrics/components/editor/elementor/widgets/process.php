@@ -414,26 +414,32 @@ class Autrics_Process_Widget extends Widget_Base {
          
 		<div class="row footer-top">
                <div class="col-md-4 footer-box">
-                  <i class="<?php echo esc_attr($icon_1); ?>"></i>
+                  <div class="footer-box-icon"> 
+                     <i class="<?php echo esc_attr($icon_1); ?>"></i>
+                  </div>
                   <div class="footer-box-content">
                      <h3><?php echo autrics_kses($title_1); ?></h3>
                      <p><?php echo autrics_kses($content_1); ?></p>
                   </div>
-				  <span class="angle-shap"></span>
+				  <!-- <span class="angle-shap"></span> -->
                </div><!-- Box 1 end-->
 			   <div class="col-md-4 footer-box">
-                  <i class="<?php echo esc_attr($icon_2); ?>"></i>
+                  <div class="footer-box-icon">
+                     <i class="<?php echo esc_attr($icon_2); ?>"></i>
+                  </div>
                   <div class="footer-box-content">
-                     <h3><?php echo autrics_kses($title_2); ?></h3>
+                     <h3><?php //echo autrics_kses($title_2); ?><span onclick="location.href='tel:+919952526615'">(+91) 99525 26615</span>, <span onclick="location.href='tel:+919500276615'">95002 76615</span></h3>
                      <p><?php echo autrics_kses($content_2); ?></p>
                   </div>
-				  <span class="angle-shap"></span>
+				  <!-- <span class="angle-shap"></span> -->
 			
                </div><!-- Box 1 end-->
 			   <div class="col-md-4 footer-box">
-                  <i class="<?php echo esc_attr($icon_3); ?>"></i>
+                  <div class="footer-box-icon">
+                     <i class="<?php echo esc_attr($icon_3); ?>"></i>
+                  </div>
                   <div class="footer-box-content">
-                     <h3><?php echo autrics_kses($title_3); ?></h3>
+                     <h3 onclick="location.href='mailto:<?php echo autrics_kses($title_3); ?>'"><?php echo autrics_kses($title_3); ?></h3>
                      <p><?php echo autrics_kses($content_3); ?></p>
                   </div>
                </div><!-- Box 1 end-->

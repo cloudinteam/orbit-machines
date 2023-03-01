@@ -775,7 +775,7 @@ readers do not read off random characters that represent icons */
   content: "\f0d9"; }
 
 .fa-caret-right:before {
-  content: "\\f0da"; }
+  content: "\f0da"; }
 
 .fa-caret-square-down:before {
   content: "\f150"; }
@@ -2545,7 +2545,7 @@ readers do not read off random characters that represent icons */
   content: "\f30a"; }
 
 .fa-long-arrow-alt-right:before {
-  content: "\\f30b"; }
+  content: "\f30b"; }
 
 .fa-long-arrow-alt-up:before {
   content: "\f30c"; }

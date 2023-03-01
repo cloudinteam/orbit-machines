@@ -1,10 +1,10 @@
-﻿=== Social Sharing Plugin - Sassy Social Share ===
+=== Social Sharing Plugin - Sassy Social Share ===
 Contributors: Heateor, kamirkhan, mohammadfarhankhan, the_champ
 Donate link: https://www.heateor.com/donate/?action=Sassy+Social+Share
 Tags: social share, social sharing, social media share, share facebook, facebook social share, wordpress social share, share buttons, social share buttons, facebook like, twitter tweet, whatsapp share, line share, gab share, gab social share, gab, parler share, parler social share, gettr, gettr share, gettr social share, mewe share, mewe social share, mewe, mastodon share, mastodon social share, mastodon, rutube share, rutube social share, rutube
 Requires at least: 2.5.0
 Tested up to: 6.1.1
-Stable tag: 3.3.45
+Stable tag: 3.3.46
 License: GPLv2 or later
 
 Slickest, Simplest and Optimized Share buttons. Facebook, Twitter, Reddit, Pinterest, Whatsapp, Parler, Gab, Gettr and over 100 more.
@@ -125,6 +125,11 @@ Yes, we can help you with it. Just drop an email at support[at]heateor[dot]com
 4. **Universal Sharing Popup**: Universal Sharing popup having all the supported sharing and bookmarking services
 
 == Changelog ==
+= 3.3.46 [4 February 2023] =
+* [Bugfix] Added href attribute in the anchor tags for the Facebook Messenger, Print, Email, Pinterest and Copy Link share icons to fix the "Links are not crawlable" warning in the Google Search Console
+* [Bugfix] Logo color of Vkontakte share icon was not changing when updated from the Theme Selection section
+* [Improvement] Improved Parler logo for the horizontal sticky social share bar appearing at the bottom of the screen 
+
 = 3.3.45 [20 December 2022] =
 * [Security] Fixed Cross-Site Scripting vulnerability exploit in the shortcodes
 * [Improvement] Improved Print icon
@@ -1233,3 +1238,8 @@ Yes, we can help you with it. Just drop an email at support[at]heateor[dot]com
 * [Improvement] Improved Print icon
 * [Improvement] Minor improvements
 * [Improvement] Updated the official Facebook SDK being used throughout the plugin to the latest version 15.0
+
+= 3.3.46 [4 February 2023] =
+* [Bugfix] Added href attribute in the anchor tags for the Facebook Messenger, Print, Email, Pinterest and Copy Link share icons to fix the "Links are not crawlable" warning in the Google Search Console
+* [Bugfix] Logo color of Vkontakte share icon was not changing when updated from the Theme Selection section
+* [Improvement] Improved Parler logo for the horizontal sticky social share bar appearing at the bottom of the screen 
